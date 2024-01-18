@@ -1,8 +1,11 @@
-import React from 'react';
+import React , {useContext} from 'react';
 import './Navbar.css';
+import { AppContext } from '../context/AppContext';
 
 
 const Navbar = () => {
+
+  const { points } = useContext(AppContext);
 
 
   return (
@@ -11,7 +14,7 @@ const Navbar = () => {
     <div className="logo_div ">
 
     <h1 className="headline_nav text-center"> مجموع نقاطك الحالية <br />
-    <span className="score">0</span>
+    <span className="score"> {points} </span>
     </h1>
 
     </div>

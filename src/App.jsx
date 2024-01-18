@@ -27,19 +27,21 @@ const App = () => {
          }
         />
 
-          <Route
+      <Route
             path="/cha1"
            element={
-                  <ChallengeOne />
+                  <ChallengeTwo />
          }
         />
 
           <Route
             path="/cha2"
            element={
-                  <ChallengeTwo />
+                  <ChallengeOne />
          }
         />
+
+
 
           <Route
             path="/cha3"
