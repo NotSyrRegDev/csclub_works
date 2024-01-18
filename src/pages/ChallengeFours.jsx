@@ -40,7 +40,7 @@ const ChallengeFours = () => {
   const handleWin = () => {
     setChallengeSolved(true);
     setChallengeStatus(true);
-    setPoints( 1200);
+    setPoints( points + 800 );
   }
 
 

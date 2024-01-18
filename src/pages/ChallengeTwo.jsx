@@ -24,7 +24,7 @@ const ChallengeTwo = () => {
     setShowPopup(false);
     setChallengeSolved(true);
     setChallengeStatus(true);
-    setPoints( 200);
+    setPoints( points + 200);
   }
 
 

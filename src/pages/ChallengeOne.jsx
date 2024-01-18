@@ -40,7 +40,7 @@ const ChallengeOne = () => {
   setTimeout(() => {
     setChallengeSolved(true);
     setChallengeStatus(true);
-    setPoints( 400);
+    setPoints( points + 400);
   } , 35000)
 
 

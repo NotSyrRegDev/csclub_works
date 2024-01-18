@@ -21,7 +21,7 @@ const ChallengeThree = () => {
 
     setChallengeSolved(true);
     setChallengeStatus(true);
-    setPoints( 600);
+    setPoints( points + 600 );
   }
 
 
