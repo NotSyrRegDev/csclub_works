@@ -1,0 +1,45 @@
+
+.navbar_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 122;
+   margin-top: 0.8rem !important;
+}
+.logo_div {
+  display: flex;
+  align-items: center;
+}
+
+
+.headline_logo {
+  color: #fff;
+  font-weight: bold;
+}
+.logo_div .logo_navbar {
+    max-height: 3.2rem;
+    cursor: pointer;
+    border-radius: 500px;
+}
+
+.headline_nav {
+  font-family: 'Cairo' , sans-serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+    @media (max-width: 750px) {
+      .logo_div .logo_navbar {
+        max-height: 2.5rem;
+    }
+    .headline_nav {
+      font-size: 12px;
+     }
+    .headline_logo {
+      font-size: 12px;
+     }
+    }
+
+

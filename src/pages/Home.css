@@ -1,0 +1,60 @@
+
+.score {
+    color: #1da69f;
+}
+
+.home_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.home_headline {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.home_headline_mid {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.home_subheadline {
+    color: #f9f9f9;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.home_para {
+    color: #f9f9f9;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 200;
+}
+
+.club_btn {
+    background: #1da69f;
+    padding: 0.5rem 2.5rem;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.5s ease-in;
+}
+
+.club_btn:hover {
+    background: transparent;
+    border: 1px solid #1da69f;
+    padding: 0.5rem 2.5rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .home_flex {
+        height: 90vh;
+    }
+}

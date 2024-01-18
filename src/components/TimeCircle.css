@@ -1,0 +1,28 @@
+/* TimerCircle.css */
+.timer-circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+
+  .circle-svg {
+    transform: rotate(-90deg);
+  }
+
+  .circle {
+    fill: none;
+    stroke: #1da69f; /* Adjust the color as needed */
+    stroke-width: 4;
+    stroke-linecap: round;
+    stroke-dasharray: 0;
+    transition: stroke-dasharray 1s linear;
+  }
+
+  .timer-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: #651d7c; /* Adjust the color as needed */
+  }

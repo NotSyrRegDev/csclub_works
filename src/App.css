@@ -1,0 +1,22 @@
+
+/*
+
+COLORS :
+
+GREEN : #1da69f
+PURPLE : #651d7c
+BLACK : #000000
+
+*/
+
+* {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Cairo' , sans-serif;
+    background: url('../public/images/club_background.jpeg')  center / cover no-repeat;
+}

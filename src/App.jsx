@@ -1,15 +1,68 @@
 import React from 'react';
-
+import { AppProvider } from './context/AppContext.jsx';
+import {  BrowserRouter,  Route,   Routes, } from "react-router-dom";
+import Navbar from './components/Navbar.jsx';
+import Home from './pages/Home.jsx';
+import FinalScore from './pages/FinalScore.jsx';
+import ChallengeThree from './pages/ChallengeThree.jsx';
+import ChallengeTwo from './pages/ChallengeTwo.jsx';
+import ChallengeOne from './pages/ChallengeOne.jsx';
 
 
 const App = () => {
   return (
-    <div>
-    <div className="flex-col" >
-      <h1> test </h1>
-      </div>
+    <AppProvider>
 
-    </div>
+   <div className="iwaiter_container">
+
+   <BrowserRouter>
+
+      <Navbar />
+       <Routes>
+
+          <Route
+            path="/"
+           element={
+              <Home />
+         }
+        />
+
+          <Route
+            path="/cha1"
+           element={
+                  <ChallengeOne />
+         }
+        />
+
+          <Route
+            path="/cha2"
+           element={
+                  <ChallengeTwo />
+         }
+        />
+
+          <Route
+            path="/cha3"
+           element={
+                  <ChallengeThree />
+         }
+        />
+
+          <Route
+            path="/thanks"
+           element={
+                  <FinalScore />
+         }
+        />
+
+
+       </Routes>
+
+    </BrowserRouter>
+
+   </div>
+
+    </AppProvider>
   )
 }
 

@@ -1,0 +1,53 @@
+
+
+.cha1_bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.cha1_card {
+    border-radius: 25px;
+    height: 75%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.iphone_mock {
+    max-height: 22rem;
+}
+
+.cha1_btn {
+    background: #651d7c;
+    padding: 0.5rem 2.5rem;
+    border-radius: 55px;
+    color: #fff;
+    transition: all 0.5s ease-in;
+}
+
+.span_green {
+color: #1da69f !important;
+}
+.clickable {
+    cursor: pointer;
+}
+
+.headline_card {
+    color: #000;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.headline_subcard {
+    color: #000;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 25px;
+}

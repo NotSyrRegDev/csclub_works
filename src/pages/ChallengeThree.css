@@ -1,0 +1,19 @@
+
+
+.cha3_btn {
+    background: #1da69f;
+    padding: 0.2rem 0.8rem;
+    border-radius: 5px;
+    color: #fff;
+    transition: all 0.5s ease-in;
+}
+
+
+.cha3_btn_cancel {
+    background:transparent;
+    border: 1px solid #1da69f;
+    padding: 0.2rem 0.8rem;
+    border-radius: 5px;
+    color: #1da69f;
+    transition: all 0.5s ease-in;
+}
