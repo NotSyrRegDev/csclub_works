@@ -7,6 +7,7 @@ import FinalScore from './pages/FinalScore.jsx';
 import ChallengeThree from './pages/ChallengeThree.jsx';
 import ChallengeTwo from './pages/ChallengeTwo.jsx';
 import ChallengeOne from './pages/ChallengeOne.jsx';
+import ChallengeFours from './pages/ChallengeFours.jsx';
 
 
 const App = () => {
@@ -41,12 +42,17 @@ const App = () => {
          }
         />
 
-
-
           <Route
             path="/cha3"
            element={
                   <ChallengeThree />
+         }
+        />
+
+          <Route
+            path="/cha4"
+           element={
+                  <ChallengeFours />
          }
         />
 

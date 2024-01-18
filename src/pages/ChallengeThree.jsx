@@ -51,7 +51,7 @@ const ChallengeThree = () => {
     )}
 
     <h1 className="headline_card_mid mt-1 ">  يلا نروح التحدي الي بعده  </h1>
-    <Link to="/thanks" >
+    <Link to="/cha4" >
     <button className="btn mt-1 cha1_btn"> أنتقال  </button>
     </Link>
 

@@ -1,0 +1,10 @@
+
+.call_icon {
+    max-height: 2.5rem;
+}
+
+.close_call {
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
