@@ -12,7 +12,7 @@ const ChallengeThree = () => {
   const [challegneStatus , setChallengeStatus] = useState(false);
 
   const handleLose = () => {
-    
+
     setChallengeSolved(true);
     setChallengeStatus(false);
   }
@@ -21,7 +21,7 @@ const ChallengeThree = () => {
 
     setChallengeSolved(true);
     setChallengeStatus(true);
-    setPoints(points + 600);
+    setPoints( 600);
   }
 
 
@@ -62,15 +62,20 @@ const ChallengeThree = () => {
     ) : (
       <div className="cha1_card">
 
-<h1 className="headline_card_mid mt-3 span_green"> وصلتك طلبية </h1>
-  <h1 className="headline_subcard "> يرجى تأكيد عنوانك لاستلام الطلبية </h1>
+      <div className="report_button" onClick={() => handleWin() } >
+        <img src="/images/report.png" alt="" className="report" />
+      </div>
 
-  <img src="/images/track.png" alt="" className="iphone_mock mt-2" />
+<h1 className="headline_card_mid mt-3 span_green text-center"> وصلتك طلبية </h1>
+  <h1 className="headline_subcard text-center "> يرجى تأكيد عنوانك لاستلام الطلبية </h1>
 
-  <div className="d-flex-c  mt-1">
-  <button className="btn  cha3_btn_cancel mx-2" onClick={() => handleWin() } > إبلاغ </button>
-  <button className="btn  cha3_btn" onClick={() => handleLose() }> تأكيد الاستلام </button>
-  </div>
+  <img src="/images/track.jpg" alt="" className="iphone_mock mt-2" />
+
+
+
+  <button className="btn cha3_btn mt-1" onClick={() => handleLose() }> استلام من الفرع  </button>
+  <button className="btn cha3_btn mt-1" onClick={() => handleLose() }> التوصيل لموقعك </button>
+
 
 
 </div>

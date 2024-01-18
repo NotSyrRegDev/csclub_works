@@ -8,6 +8,15 @@
     transition: all 0.5s ease-in;
 }
 
+.cha3_btn:hover {
+    background: transparent;
+    border: 1px solid #1da69f;
+    padding: 0.2rem 0.8rem;
+    border-radius: 5px;
+    color: #1da69f;
+    transition: all 0.5s ease-in;
+}
+
 
 .cha3_btn_cancel {
     background:transparent;
@@ -16,4 +25,16 @@
     border-radius: 5px;
     color: #1da69f;
     transition: all 0.5s ease-in;
+}
+
+.report_button {
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    padding: 0.2rem;
+}
+
+.report {
+    max-height: 1.5rem;
 }

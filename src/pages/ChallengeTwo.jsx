@@ -24,7 +24,7 @@ const ChallengeTwo = () => {
     setShowPopup(false);
     setChallengeSolved(true);
     setChallengeStatus(true);
-    setPoints(points + 200);
+    setPoints( 200);
   }
 
 
@@ -93,7 +93,7 @@ const ChallengeTwo = () => {
       </div>
 
 
-      <button className="btn mt-1 cha1_btn" onClick={() => handleLose() } > تأكيد التسجيل </button>
+      <button className="btn mt-3 cha1_btn" onClick={() => handleLose() } > تأكيد التسجيل </button>
     </div>
 
   )}

@@ -18,7 +18,7 @@ const ChallengeOne = () => {
 
 
 
-  const [timer, setTimer] = useState(10);
+  const [timer, setTimer] = useState(50);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -33,15 +33,15 @@ const ChallengeOne = () => {
   const calculateDashArray = () => {
     const radius = 50; // adjust this based on your design
     const circumference = 2 * Math.PI * radius;
-    const progress = ((10 - timer) / 10) * circumference;
+    const progress = ((50 - timer) / 50) * circumference;
     return `${progress} ${circumference}`;
   };
 
   setTimeout(() => {
     setChallengeSolved(true);
     setChallengeStatus(true);
-    setPoints(points + 400);
-  } , 10000)
+    setPoints( 400);
+  } , 35000)
 
 
   return (
